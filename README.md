@@ -19,3 +19,6 @@ A área total do polígono é dada pela soma das áreas de todos os triângulos.
 
 4. Desafio: Dado um array de números inteiros, implemente uma função em PHP chamada "SequenciaCrescente" que determine se é possível obter uma sequência crescente removendo apenas um elemento do array. Se a sequência crescente puder ser obtida, retorne true, caso contrário, retorne false.
 Para isso, a função implementa a função auxiliar "Verifica" para verificar se um determinado array é uma sequência crescente. A função principal "SequenciaCrescente" faz um loop sobre o array original e remove um elemento por vez, passando o array resultante para a função "Verifica". Se "Verifica" retorna verdadeiro, significa que é possível obter uma sequência crescente removendo apenas um elemento e, portanto, a função principal retorna true. Caso contrário, a função principal continua removendo elementos até que todos sejam testados e retorne false.
+
+Licença
+Este projeto está licenciado sob a licença Creative Commons Attribution 4.0 International.
